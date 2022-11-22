@@ -27,6 +27,6 @@ func search_data(c *gin.Context) {
 
 func pong(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
-		"message": "pong",
+		"message": "ping-pong",
 	})
 }
