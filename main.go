@@ -7,7 +7,7 @@ import (
 func main() {
 	router := gin.Default()
 	
-	router.GET("/ping", pong)
+	router.GET("/", pong)
 	router.POST("/send-json", search_data)
 	
 	router.Run()
