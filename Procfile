@@ -1,1 +1,1 @@
-web: Elessurgon/goapi
+web: main
